@@ -16,6 +16,9 @@
 * [有字库](youziku.com)
   > 字体图片的使用，基本使用步骤：在线生成文字、添加class、用link引入在线css。使用案例，可以点击此处链接。
 
+* [图标库](http://www.iconfont.cn/)
+  > 图标库有很多，个人感觉，这个阿里的图标库，还是很美的。
+
 * [swiper图片懒加载的用法](http://idangero.us/swiper/api/#.V_3hSyF95QI)
 
 * [sublime3控制插件](http://devework.com/sublime-text-3-package-control.html)

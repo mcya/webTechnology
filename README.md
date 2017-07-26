@@ -4,11 +4,11 @@
 # 前端开发的实用网站收集
 
 
-* [lodash js工具库](http://lodashjs.com/docs/)
+* [lodash js工具库](http://lodashjs.com/docs/)【一个关于js的工具库，封装了很多关于js的方法，包括去重查重、深度复制、判断数组、NAN、是否为空、下标位置等等，建议在开发中使用。】
 
-* [caniuse 查看HTML5/css3兼容性](http://caniuse.com/)
+* [caniuse](http://caniuse.com/)【用于查看HTML5/css3兼容性，包括html标签或者css属性在PC端的浏览器的兼容问题以及在移动端的兼容问题。】
 
-* [在线JSON校验格式化工具（Be JSON）](http://www.bejson.com/)
+* [在线JSON校验格式化工具（Be JSON）](http://www.bejson.com/)【JSON格式化工具，可以快速整理后台返回一推密密麻麻的json数据，以标准的二叉树展示出来，从而更好更快的分析数据，做出判断。】
 
 * [swiper图片懒加载的用法](http://idangero.us/swiper/api/#.V_3hSyF95QI)
 

@@ -16,6 +16,8 @@
 * [ES6语法编译器](https://babeljs.io/)
   > 如果大神写出一推的es6语法，而你看得又是一脸懵逼的时候，可以试试进入进行'翻译'。
 
+* [url转义工具](http://meyerweb.com/eric/tools/dencoder/)
+
 * [有字库](youziku.com)
   > 字体图片的使用，基本使用步骤：在线生成文字、添加class、用link引入在线css。使用案例，可以点击此处链接。
 
@@ -25,7 +27,12 @@
 * [swiper图片懒加载的用法](http://idangero.us/swiper/api/#.V_3hSyF95QI)
 
 * [sublime3控制插件](http://devework.com/sublime-text-3-package-control.html)
+**********************************************************
+* [APIStore](http://apistore.baidu.com/)
+  > 百度提供api，有许多是免费的
 
+* [DT阿凡达数据](http://www.avatardata.cn/)
+  > 海量api数据接口
 **********************************************************
 * [Compass用法指南](http://www.ruanyifeng.com/blog/2012/11/compass.html)
 

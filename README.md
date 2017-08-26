@@ -18,6 +18,9 @@
 
 * [url转义工具](http://meyerweb.com/eric/tools/dencoder/)
 
+* [rangeCss颜色调整工具](http://danielstern.ca/range.css/#/)
+  > css颜色调整工具，R G B A 四个值进度条调整
+
 * [有字库](youziku.com)
   > 字体图片的使用，基本使用步骤：在线生成文字、添加class、用link引入在线css。使用案例，可以点击此处链接。
 

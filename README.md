@@ -34,21 +34,25 @@
 ### 库
 
 * [轮子工厂](http://www.wheelsfactory.cn/#/home)
-  > vue+angular+jQuery 组件库
+  > vue+angular 组件库http://www.jq22.com/jq1-jq
+
+ * [jQuery插件库](http://www.jq22.com/jq1-jq)
+  > 这个网站分享jQuery插件和提供各种jQuery特效的详细使用方法,在线预览,jQuery插件下载及教程
 
 * [有字库](youziku.com)
   > 字体图片的使用，基本使用步骤：在线生成文字、添加class、用link引入在线css。使用案例，可以点击此处链接。
 
 * [图标库](http://www.iconfont.cn/)
 
-**********************************************************
-### 数据类
+* [千库网](http://588ku.com/)
+  > 一个免费下载图片素材的网站
 
 * [APIStore](http://apistore.baidu.com/)
   > 百度提供api，有许多是免费的
 
 * [DT阿凡达数据](http://www.avatardata.cn/)
   > 海量api数据接口
+
 
 **********************************************************
 ### 技巧类

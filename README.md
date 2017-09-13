@@ -20,7 +20,15 @@
 * [url转义工具](http://meyerweb.com/eric/tools/dencoder/)
 
 * [rangeCss颜色调整工具](http://danielstern.ca/range.css/#/)
-  > css颜色调整工具，R G B A 四个值进度条调整
+  > css颜色调整工具，R G B A 四个值进度条调整https://tinypng.com/
+
+* [TinyPng在线压缩工具](https://tinypng.com/)
+  > css颜色调整工具，R G B A 四个值进度条调整http://tool.lu/js/
+
+* [JavaScript在线操作工具](http://tool.lu/js/)
+  > 关于js的工具，包含了JavaScript的==>美化+净化+加密+解密+混淆
+
+* [一个在线工具网站，集中包含了大量的工具](http://tool.lu/)
 
 **********************************************************
 ### 库

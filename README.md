@@ -34,7 +34,7 @@
 ### 库
 
 * [轮子工厂](http://www.wheelsfactory.cn/#/home)
-  > vue+angular 组件库http://www.jq22.com/jq1-jq
+  > vue+angular 组件库
 
  * [jQuery插件库](http://www.jq22.com/jq1-jq)
   > 这个网站分享jQuery插件和提供各种jQuery特效的详细使用方法,在线预览,jQuery插件下载及教程

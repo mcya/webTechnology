@@ -36,8 +36,11 @@
 * [轮子工厂](http://www.wheelsfactory.cn/#/home)
   > vue+angular 组件库
 
- * [jQuery插件库](http://www.jq22.com/jq1-jq)
-  > 这个网站分享jQuery插件和提供各种jQuery特效的详细使用方法,在线预览,jQuery插件下载及教程
+* [jQuery插件库](http://www.jq22.com/jq1-jq)
+> 这个网站分享jQuery插件和提供各种jQuery特效的详细使用方法,在线预览,jQuery插件下载及教程
+
+* [jQuery插件库2](http://www.htmleaf.com/)
+> jQuery库+CSS3库+HTML5库
 
 * [有字库](youziku.com)
   > 字体图片的使用，基本使用步骤：在线生成文字、添加class、用link引入在线css。使用案例，可以点击此处链接。

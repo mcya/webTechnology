@@ -1,0 +1,147 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web QR</title>
+
+  <style type="text/css">
+    body {
+      width: 100%;
+      text-align: center;
+    }
+
+    img {
+      border: 0;
+    }
+
+    #main {
+      margin: 15px auto;
+      background: white;
+      overflow: auto;
+      width: 100%;
+    }
+
+
+    #mainbody {
+      background: white;
+      width: 100%;
+      display: none;
+    }
+
+    #footer {
+      background: white;
+    }
+
+    #v {
+      width: 320px;
+      height: 240px;
+    }
+
+    #qr-canvas {
+      display: none;
+    }
+
+    #qrfile {
+      width: 320px;
+      height: 240px;
+    }
+
+    #mp1 {
+      text-align: center;
+      font-size: 35px;
+    }
+
+    #imghelp {
+      position: relative;
+      left: 0px;
+      top: -160px;
+      z-index: 100;
+      font: 18px arial, sans-serif;
+      background: #f0f0f0;
+      margin-left: 35px;
+      margin-right: 35px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 20px;
+    }
+
+    .selector {
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      margin-bottom: -5px;
+    }
+
+    #outdiv {
+      width: 320px;
+      height: 240px;
+      border: solid;
+      border-width: 3px 3px 3px 3px;
+    }
+
+    #result {
+      border: solid;
+      border-width: 1px 1px 1px 1px;
+      padding: 20px;
+      width: 70%;
+    }
+
+
+
+    .tsel {
+      padding: 0;
+    }
+
+    .fileinput-button {
+      position: relative;
+      display: none;
+    }
+  </style>
+  <script src="./common/js/llqrcode.js"></script>
+  <script src="./common/js/selefcode.js"></script>
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="mainbody">
+      <table class="tsel" border="0" width="100%">
+        <tr>
+          <td valign="top" align="center" width="50%">
+            <table class="tsel" border="0">
+              @*<tr>
+                <td><img class="selector" id="webcamimg" src="vid.png" onclick="setwebcam()" align="left" /></td>
+                <td><img class="selector" id="qrimg" src="cam.png" onclick="setimg()" align="right" /></td>
+              </tr>*@
+              <tr>
+                <td align="center">
+                  <div id="outdiv">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><a class="weui-btn weui-btn_primary" href="javascript:void(0);" onclick="setwebcam()" id="btnsaveCharge">相机扫码</a></td>
+              </tr>
+              <tr>
+                <td><a class="weui-btn weui-btn_primary" href="javascript:void(0);" onclick="setimg()" id="btnsaveCharge">相册识别</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="weui-input" id="result"></div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <canvas id="qr-canvas" width="800" height="600"></canvas>
+  <script type="text/javascript">
+    load();
+    setwebcam();
+  </script>
+</body>
+
+</html>

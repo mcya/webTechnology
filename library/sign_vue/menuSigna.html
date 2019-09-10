@@ -5,9 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-  <link rel="stylesheet" href="../common/js/weui/weui.min.css">
   <link rel="stylesheet" type="text/css" href="../common/css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="../css/menuSigna.css" />
 
   <title>menuSigna</title>
   <style>
@@ -32,9 +30,12 @@
         <p class="headnav-title">签名</p>
         <p class="headnav-home" onclick="location.href='menuNav.html' "><img src="./img/menu_home.png" alt=""></p>
       </div>
+
+      <!-- 签名 -->
       <div class="modal-body">
         <div class="js-signature" id="mySignature"></div>
       </div>
+
       <div class="footer-button-two">
         <p @click="autographClick">签名</p>
         <p @click="configeAction">确认</p>
@@ -50,9 +51,7 @@
 
 
 <script src="../common/js/vue.js"></script>
-<script src="../common/js/layer/layer.js"></script>
 <script src="../common/js/common.js"></script>
-<script type="text/javascript" src="../common/js/weui/weui.min.js"></script>
 
 <script type="text/javascript">
   var vueDoms = {};
@@ -61,31 +60,11 @@
       el: '#menuSigna',
       data() {
         return {
-          ulHeight: 200,
-          searchName: '',
-          searchTime: '',
-          searchType: '',
-          searchTypeVal: '',
-          ajaxCommonHost: '',
-          userid: '',
-          saleList: [],
-          pageInfo: {
-            currentPage: 1,
-            totalPage: 1,
-          },
         }
       },
       mounted() {
-        this.isLogin();
       },
       methods: {
-        isLogin() {
-          this.ajaxCommonHost = localStorage.getItem('ajaxCommonHost');
-          this.userid = localStorage.getItem('userid');
-          this.ulHeight = document.documentElement.clientHeight - 56 - 81 - 15 - 50 - 5 - 41; // body - header - search - div - footer - null
-          // this.ulHeight = document.documentElement.clientHeight - 56 - 122 - 15 - 50 - 5; // body - header - search(122: searchName) - div - footer - null
-          this.listDialogBeforAction();
-        },
         configeAction() {
           var dataUrl = $('.js-signature').jqSignature('getDataURL');
           console.log(dataUrl);
@@ -116,33 +95,11 @@
             })
             //{ width: 600, height: 200, border: '1px solid red', background: '#16A085', lineColor: '#ABCDEF', lineWidth: 2, autoFit: true }
           } else {
-
             alert("请加载jq-signature.js");
             return;
           }
         },
         listDialogBeforAction(parameters) {
-          // var _this = this, data = parameters ? parameters : {};
-          // $.ajax({
-          //   type: 'POST',
-          // 	url: this.ajaxCommonHost+'/Api/orderQuery.do',
-          //   data: data,
-          // 	dataType:'json',
-          // 	success:function(data){
-          //     console.log(data);
-          //     if (data.success) {
-          //       console.log(data);
-          //       layer.closeAll();
-          //     } else if (!data.success) {
-          //       layer.closeAll();
-          //       layer.open({content:data.message, skin: 'msg', style: 'top:-200px;', time: 3});
-          //     }
-          // 	},
-          //   error: function(XMLHttpRequest, textStatus, errorThrown){
-          //     layer.closeAll();
-          //     layer.open({content: errorThrown, skin: 'msg', style: 'top:-200px;', time: 3});
-          //   },
-          // });
         },
 
       },

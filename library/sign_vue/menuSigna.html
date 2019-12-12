@@ -28,7 +28,7 @@
       <div class="headnav">
         <p class="headnav-history" onclick="javascript:history.back(-1);">&nbsp;</p>
         <p class="headnav-title">签名</p>
-        
+
         <p class="headnav-home" onclick="location.href='menuNav.html' "><img src="./img/menu_home.png" alt=""></p>
       </div>
 
@@ -38,7 +38,7 @@
       </div>
 
       <div class="footer-button-two">
-        <p @click="autographClick">签名</p>
+        <p @click="siginResetAction">重写</p>
         <p @click="configeAction">确认</p>
       </div>
     </template>
@@ -64,8 +64,13 @@
         }
       },
       mounted() {
+        this.autographClick()
       },
       methods: {
+        siginResetAction() {
+          // Signature.clearCanvas()
+          $('.js-signature').jqSignature('clearCanvas'); //清空画布
+        },
         configeAction() {
           var dataUrl = $('.js-signature').jqSignature('getDataURL');
           console.log(dataUrl);
@@ -80,7 +85,7 @@
         initSignature() {
           var _this = this
           if (window.requestAnimFrame) {
-            var width = $(document).width() - 20
+            var width = $(document).width
             var signature = $("#mySignature");
             signature.jqSignature({
               height: 200,

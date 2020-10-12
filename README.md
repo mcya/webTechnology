@@ -91,6 +91,8 @@
 
 * [sublime3控制插件](http://devework.com/sublime-text-3-package-control.html)
 
+* [FastClick遇到的坑及解决办法](https://www.php.cn/js-tutorial-387360.html)
+
 **********************************************************
 ### api
 
